@@ -2,7 +2,7 @@
 $this->db->select("*");
 $this->db->from("menu_slide");
 $this->db->where("menu_slide.status", "1");
-$this->db->limit("3,0");
+$this->db->limit("100,0");
 $query = $this->db->get();
 $images = $query->result();
 $countIndicator = 0;
