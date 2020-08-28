@@ -196,6 +196,18 @@ class Administrator extends CI_Controller {
 		$this->_example_output($output);
 	}
 
+	function seo(){
+		$crud = new grocery_CRUD();
+		$crud->set_theme("bootstrap");
+		$crud->set_table("tag_meta");
+		
+		$crud->unset_add();
+		$crud->unset_delete();
+
+		$output = $crud->render();
+		$this->_example_output($output);
+	}
+
 	function rest_server()
 	{
 		$crud = new grocery_CRUD();

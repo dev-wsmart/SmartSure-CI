@@ -103,6 +103,9 @@
                 <li>
                     <a href="<?php echo base_url('administrator/news');?>"><i class="fa fa-newspaper-o"></i>&nbsp; News</a>
                 </li> 
+                <li>
+                    <a href="<?php echo base_url('administrator/seo');?>"><i class="fa fa-globe"></i>&nbsp; SEO</a>
+                </li> 
 
                 <!-- <li>
                     <a href="<?php echo base_url('administrator/rest_server');?>"><i class=" glyphicon glyphicon-transfer "></i> Rest_server</a>
