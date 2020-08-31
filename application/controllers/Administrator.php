@@ -208,6 +208,28 @@ class Administrator extends CI_Controller {
 		$this->_example_output($output);
 	}
 
+	function orico(){
+		$crud = new grocery_CRUD();
+		$crud->set_theme("bootstrap");
+		$crud->set_table("orico");
+
+		$crud->set_field_upload('image','assets/uploads/Package');
+		$crud->set_field_upload('pdf','assets/uploads/Package');
+		$output = $crud->render();
+		$this->_example_output($output);
+	}
+
+	function cimb(){
+		$crud = new grocery_CRUD();
+		$crud->set_theme("bootstrap");
+		$crud->set_table("cimb");
+
+		$crud->set_field_upload('image','assets/uploads/Package');
+		$crud->set_field_upload('pdf','assets/uploads/Package');
+		$output = $crud->render();
+		$this->_example_output($output);
+	}
+
 	function rest_server()
 	{
 		$crud = new grocery_CRUD();

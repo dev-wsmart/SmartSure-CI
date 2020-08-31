@@ -103,6 +103,19 @@
                 <li>
                     <a href="<?php echo base_url('administrator/news');?>"><i class="fa fa-newspaper-o"></i>&nbsp; News</a>
                 </li> 
+
+                <li>
+                    <a href="#"><i class="fa fa-users"></i>&nbsp; Partner<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="<?php echo base_url('administrator/orico');?>"><i class="fa fa-circle"></i>&nbsp; Orico</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url('administrator/cimb');?>"><i class="fa fa-circle"></i>&nbsp; CIMB</a>
+                        </li>
+                    </ul>    
+                </li>
+
                 <li>
                     <a href="<?php echo base_url('administrator/seo');?>"><i class="fa fa-globe"></i>&nbsp; SEO</a>
                 </li> 
