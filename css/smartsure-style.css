@@ -46,6 +46,43 @@ body {
   box-shadow: 0 6px 15px -7px #303030;
 }
 
+.nav-dropdown{
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  margin-left: 10px;
+  margin-top: 3px;
+  border-radius: 5px;
+  padding: 5px 0px;
+  box-shadow: 0 3px 10px #3030305b;
+}
+
+.service-dropdown{
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.service-dropdown:hover .nav-dropdown{
+  display: block;
+}
+
+.nav-dropdown a{
+  text-align: left;
+  border-radius: 0px !important;
+  color: black !important;
+  display: block;
+  min-width: 150px;
+  margin: 0px !important;
+}
+
+.nav-dropdown a:hover{
+  text-decoration: none !important;
+  background-color: dodgerblue !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
 .navbar{
   padding: 0px !important;
   background-color: #a2ced1 !important;

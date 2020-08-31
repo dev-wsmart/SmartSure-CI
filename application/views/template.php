@@ -20,7 +20,6 @@
 				
 	<meta name="description" content="<?php echo $products->description?>">
 	<meta name="keywords" content="<?php echo $products->keywords?>">
-	<meta name="author" content="<?php echo $products->author?>">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo  $title; ?></title>

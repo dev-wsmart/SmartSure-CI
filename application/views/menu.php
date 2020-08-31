@@ -22,6 +22,13 @@
         <a href="<?php echo base_url();?>product" id="product">ซื้อผลิตภัณฑ์</a>
         <a href="<?php echo base_url();?>promotion" id="promotion">โปรโมชั่น</a>
         <a href="<?php echo base_url();?>news" id="news">ข่าวสารและกิจกรรม</a>
+        <div class="service-dropdown">
+                <a href="<?php echo base_url();?>#" id="service">Partner</a>
+                <div class="nav-dropdown">
+                    <a href="<?php echo base_url();?>orico">Orico</a>
+                    <a href="<?php echo base_url(); ?>cimb">CIMB</a>
+                </div>
+            </div>
         <a href="<?php echo base_url();?>contactus" id="contactus">ติดต่อเรา</a>
     </div>
 </div>
